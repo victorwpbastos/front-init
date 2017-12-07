@@ -1,0 +1,15 @@
+{
+	"name": "front-init",
+	"version": "1.0.0",
+	"private": true,
+	"main": "index.js",
+	"preferGlobal": true,
+	"bin": {
+		"init": "index.js"
+	},
+	"dependencies": {
+		"download-git-repo": "^1.0.1",
+		"fs-extra": "^4.0.3",
+		"minimist": "^1.2.0"
+	}
+}
